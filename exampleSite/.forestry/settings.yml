@@ -10,7 +10,7 @@ sections:
   path: exampleSite/content/english/_index.md
   label: Homepage (en)
 - type: document
-  path: exampleSite/content/french/_index.md
+  path: exampleSite/content/zh-tw/_index.md
   label: Homepage (fr)
 - type: heading
   label: Blog Post
@@ -22,7 +22,7 @@ sections:
   templates:
   - post
 - type: directory
-  path: exampleSite/content/french/blog
+  path: exampleSite/content/zh-tw/blog
   label: Post (fr)
   create: documents
   match: "**/*"
@@ -38,7 +38,7 @@ sections:
   templates:
   - author
 - type: directory
-  path: exampleSite/content/french/author
+  path: exampleSite/content/zh-tw/author
   label: Author (fr)
   create: documents
   match: "**/*"
@@ -54,7 +54,7 @@ sections:
   templates:
   - project
 - type: directory
-  path: exampleSite/content/french/project
+  path: exampleSite/content/zh-tw/project
   label: Project (fr)
   create: documents
   match: "**/*"
@@ -69,7 +69,7 @@ sections:
   match: "*"
   exclude: _index.md
 - type: directory
-  path: exampleSite/content/french
+  path: exampleSite/content/zh-tw
   label: Other Pages (fr)
   create: documents
   match: "*"
@@ -82,7 +82,7 @@ sections:
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/french
+  path: exampleSite/content/zh-tw
   label: All Pages (fr)
   create: all
   match: "**/*"

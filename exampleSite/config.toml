@@ -6,16 +6,6 @@ paginate = "4"
 summaryLength = "30"
 theme = "airspace-hugo"
 title = "Airspace | Creative Agency Hugo Template"
-[languages.de]
-contentDir = "content/german"
-copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Alle Rechte vorbehalten."
-languageCode = "de-DE"
-languageName = "Deutsch"
-weight = 3
-[[languages.de.menu.main]]
-hasChildren = true
-name = "Mehr"
-weight = 5
 [languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). All Rights Reserved."
@@ -26,25 +16,15 @@ weight = 1
 hasChildren = true
 name = "More"
 weight = 5
-[languages.fr]
-contentDir = "content/french"
+[languages.zh-tw]
+contentDir = "content/zh-tw"
 copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Tous droits réservés."
-languageCode = "fr-FR"
-languageName = "Français"
+languageCode = "zh-tw"
+languageName = "Chinese"
 weight = 2
-[[languages.fr.menu.main]]
+[[languages.zh-tw.menu.main]]
 hasChildren = true
 name = "Plus"
-weight = 5
-[languages.it]
-contentDir = "content/italian"
-copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Tutti i diritti riservati."
-languageCode = "it-IT"
-languageName = "Italiano"
-weight = 2
-[[languages.it.menu.main]]
-hasChildren = true
-name = "Più"
 weight = 5
 [markup.goldmark.renderer]
 unsafe = true
@@ -65,7 +45,7 @@ logo = "images/logo.png"
 logo_width = "150px"
 [params.contact]
 address_descriptors = false
-email = "demo@email.com"
+email = "arlene722517@gmail.com"
 location = "**Themefisher**  \nNorth Main Street  \nBrooklyn, New South Wales  \nAustralia\n"
 phone = "0124857985320"
 [params.contact.form]
