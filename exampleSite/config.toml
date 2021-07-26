@@ -18,9 +18,9 @@ name = "More"
 weight = 5
 [languages.zh-tw]
 contentDir = "content/zh-tw"
-copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Tous droits réservés."
+copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). All Rights Reserved."
 languageCode = "zh-tw"
-languageName = "Chinese"
+languageName = "Traditional Chinese"
 weight = 2
 [[languages.zh-tw.menu.main]]
 hasChildren = true
