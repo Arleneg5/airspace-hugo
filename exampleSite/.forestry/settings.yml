@@ -10,8 +10,8 @@ sections:
   path: exampleSite/content/english/_index.md
   label: Homepage (en)
 - type: document
-  path: exampleSite/content/zh-tw/_index.md
-  label: Homepage (zh-tw)
+  path: exampleSite/content/tw/_index.md
+  label: Homepage (tw)
 - type: heading
   label: Blog Post
 - type: directory
@@ -22,8 +22,8 @@ sections:
   templates:
   - post
 - type: directory
-  path: exampleSite/content/zh-tw/blog
-  label: Post (zh-tw)
+  path: exampleSite/content/tw/blog
+  label: Post (tw)
   create: documents
   match: "**/*"
   templates:
@@ -38,8 +38,8 @@ sections:
   templates:
   - author
 - type: directory
-  path: exampleSite/content/zh-tw/author
-  label: Author (zh-tw)
+  path: exampleSite/content/tw/author
+  label: Author (tw)
   create: documents
   match: "**/*"
   templates:
@@ -54,8 +54,8 @@ sections:
   templates:
   - project
 - type: directory
-  path: exampleSite/content/zh-tw/project
-  label: Project (zh-tw)
+  path: exampleSite/content/tw/project
+  label: Project (tw)
   create: documents
   match: "**/*"
   templates:
@@ -69,8 +69,8 @@ sections:
   match: "*"
   exclude: _index.md
 - type: directory
-  path: exampleSite/content/zh-tw
-  label: Other Pages (zh-tw)
+  path: exampleSite/content/tw
+  label: Other Pages (tw)
   create: documents
   match: "*"
   exclude: _index.md
@@ -82,8 +82,8 @@ sections:
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/zh-tw
-  label: All Pages (zh-tw)
+  path: exampleSite/content/tw
+  label: All Pages (tw)
   create: all
   match: "**/*"
   templates:
