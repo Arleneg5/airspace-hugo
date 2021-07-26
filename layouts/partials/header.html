@@ -43,7 +43,7 @@
                 <select id="select-language" onchange="location = this.value;">
                   {{ $siteLanguages := site.Languages -}}
                   {{ $pageLang := .Page.Lang -}}
-                  {{ $translations := "" }}{{ if eq .Page.Kind "404" }}{{ $translations = site.Home.AllTranslations }}{{ else }}{{ $translations = .Page.AllTranslations }}{{ end -}}
+                  {{ $translations := "" }}{{ $translations = .Page.AllTranslations }}{{ end -}}
                   {{ range $translations -}}
                   {{ $translation := . -}}
                   {{ range $siteLanguages -}}
