@@ -5,9 +5,9 @@ draft: false
 bg_image: "images/feature-bg.jpg"
 menu:
   main:
-    name: "Projet"
+    name: "Project"
     weight: 3
   footer:
-    name: "Projet"
+    name: "Project"
     weight: 2
 ---

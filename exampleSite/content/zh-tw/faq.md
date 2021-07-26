@@ -8,11 +8,11 @@ layout: "faq"
 draft: false
 menu:
   main:
-    parent: "Plus"
-    name: "Questions fréquentes"
+    parent: "More"
+    name: "FAQ"
     weight: 3
   footer:
-    name: "Questions fréquentes"
+    name: "FAQ"
     weight: 5
 ---
 

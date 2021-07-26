@@ -5,10 +5,8 @@ Usage: {{< date_i18n DATE >}}
 */}} -->
 {{- $lang := $.Site.Language.Lang -}}
 {{ $date := time (.Get 0) -}}
-{{ if eq $lang "de" -}}
-  {{ $date.Day }}. {{ i18n (lower $date.Month) }} {{ $date.Year -}}
-{{ else if in (slice "fr" "it") $lang -}}
-  {{ $date.Day }} {{ i18n (lower $date.Month) }} {{ $date.Year -}}
+{{ if eq $lang "zh-tw" -}}
+  {{ $date.Year -}} {{ i18n (lower $date.Month) }}  {{ $date.Day }}
 {{ else -}}
   {{ $date.Format "January 2, 2006" -}}
 {{ end -}}

@@ -6,11 +6,11 @@ layout: "pricing"
 draft: false
 menu:
   main:
-    parent: "Plus"
-    name: "Tarification"
+    parent: "More"
+    name: "Pricing"
     weight: 2
   footer:
-    name: "Tarification"
+    name: "Pricing"
     weight: 4
 
 ################################ pricing ################################

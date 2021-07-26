@@ -6,10 +6,10 @@ layout: "about"
 draft: false
 menu:
   main:
-    name: "À propos"
+    name: "About"
     weight: 2
   footer:
-    name: "À propos"
+    name: "About"
     weight: 1
 
 

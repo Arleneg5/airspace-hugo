@@ -6,7 +6,7 @@ layout: "service"
 draft: false
 menu:
   main:
-    parent: "Plus"
+    parent: "More"
     name: "Service"
     weight: 1
   footer:
