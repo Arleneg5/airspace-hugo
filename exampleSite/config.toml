@@ -22,9 +22,9 @@ copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). All R
 languageCode = "zh-TW"
 languageName = "正體中文（臺灣)"
 weight = 2
-[[languages.zh-tw.menu.main]]
+[[languages.zh-TW.menu.main]]
 hasChildren = true
-name = "Plus"
+name = "更多"
 weight = 5
 [markup.goldmark.renderer]
 unsafe = true
