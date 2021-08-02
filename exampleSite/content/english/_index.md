@@ -1,7 +1,7 @@
 ---
 banner:
   enable: true
-  bg_image: images/slider-bg.jpg
+  bg_image: images/baodao-slider-bg.png
   bg_overlay: true
   title: 寶島大樓 <br/> Bao Dao
   content: We love the Web and the work we do.We work closely with our clients to
