@@ -92,6 +92,5 @@ funfacts:
       make us stand out from the crowd.
 title: 寶島大樓
 bg_image: "/images/baodao-slider-bg.png"
-draft: true
 
 ---
